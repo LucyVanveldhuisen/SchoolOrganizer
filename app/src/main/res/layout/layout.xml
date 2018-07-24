@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></RelativeLayout>
+            <Button
+            android:id="@+id/button"
+            android:layout_width="69dp"
+            android:layout_height="72dp"
+            android:layout_alignLeft="@+id/button5" android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/button5"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:text="+"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="296dp"
+            android:layout_height="61dp"
+            android:layout_alignBottom="@+id/button"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:layout_toLeftOf="@+id/button"
+            android:layout_toStartOf="@+id/button"
+            android:allowUndo="false"
+            android:backgroundTint="@android:color/darker_gray"
+            android:gravity="center_vertical"
+            android:text="ASSIGNMENTS"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="82dp"
+        android:layout_height="69dp"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_toLeftOf="@+id/button3"
+        android:layout_toStartOf="@+id/button3"
+        android:text="HOME"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="80dp"
+        android:layout_height="69dp"
+        android:layout_alignTop="@+id/button5"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_toLeftOf="@+id/button4"
+        android:layout_toStartOf="@+id/button4"
+        android:text="CLASSES"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="81dp"
+        android:layout_height="69dp"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignTop="@+id/button5"
+        android:text="NOTES"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="82dp"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="SETTINGS" />
+
+
+</RelativeLayout>
